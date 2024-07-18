@@ -13,7 +13,7 @@ class Connection
     {
         try {
             if (!self::$pdo) {
-                self::$pdo = new PDO('mysql:host=database;dbname=active_record', 'root', 'root', [
+                self::$pdo = new PDO('mysql:host=database;dbname=mvc', 'root', 'root', [
                     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
                     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 ]);
