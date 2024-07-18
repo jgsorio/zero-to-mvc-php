@@ -1,0 +1,16 @@
+{
+    "name": "guilherme/mvc-php",
+    "description": "A MVC Project created following udemy course",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "José Guilherme",
+            "email": "joseguilhermesorio@gmail.com"
+        }
+    ],
+    "require": {}
+}
